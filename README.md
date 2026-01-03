@@ -56,3 +56,5 @@ NAME                            IMAGE                         COMMAND           
 docker-compose-flask-1          docker-compose-flask          "/bin/sh -c 'python3…"   flask          5 seconds ago   Up 4 seconds   0.0.0.0:4001->4001/tcp, [::]:4001->4001/tcp
 docker-compose-node-service-1   docker-compose-node-service   "docker-entrypoint.s…"   node-service   5 seconds ago   Up 4 seconds   0.0.0.0:4000->4000/tcp, [::]:4000->4000/tcp
 docker-compose-website-1        docker-compose-website        "/docker-entrypoint.…"   website        5 seconds ago   Up 4 seconds   0.0.0.0:9090->80/tcp, [::]:9090->80/tcp
+
+Once images and containers are created you can access the websites on: localhost:9090, 4000 and 4001.
