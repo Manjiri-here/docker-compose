@@ -58,3 +58,7 @@ docker-compose-node-service-1   docker-compose-node-service   "docker-entrypoint
 docker-compose-website-1        docker-compose-website        "/docker-entrypoint.…"   website        5 seconds ago   Up 4 seconds   0.0.0.0:9090->80/tcp, [::]:9090->80/tcp
 
 Once images and containers are created you can access the websites on: localhost:9090, 4000 and 4001.
+
+# get the logs for all the services
+% docker compose logs  # get the logs of a selected service % docker  compose logs <service-name>
+
