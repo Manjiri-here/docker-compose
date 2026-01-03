@@ -1,0 +1,22 @@
+# docker compose composes means builds images and creates container for us.
+
+services:
+
+  website:
+    build: ./website
+    ports: 
+      - 9090:80 # port forwarding
+
+
+  node:
+    build: ./node-service
+    ports:
+      - 4000:4000
+
+
+  flask:
+    build: ./flask-service
+    ports:
+      - 4001:4001
+
+
